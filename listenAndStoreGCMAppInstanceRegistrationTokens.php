@@ -11,3 +11,10 @@
     var_dump($_POST);
 ?>
 </pre>
+
+<br>$_REQUEST:
+<pre>
+<?php
+    var_dump($_REQUEST);
+?>
+</pre>
