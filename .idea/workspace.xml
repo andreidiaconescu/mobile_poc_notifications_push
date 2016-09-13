@@ -37,10 +37,10 @@
       <file leaf-file-name="listenAndStoreGCMAppInstanceRegistrationTokens.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="32" column="107" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <marker date="1473784890154" expanded="true" signature="1010:1072" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1473785420086" expanded="true" signature="1067:1129" ph="SELECT * FRO... app_instance_tokens" />
               </folding>
             </state>
           </provider>
@@ -259,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473770221547</updated>
-      <workItem from="1473770222952" duration="10229000" />
+      <workItem from="1473770222952" duration="10759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10229000" />
+    <option name="totallyTimeSpent" value="10759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -395,10 +395,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="107" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1473784890154" expanded="true" signature="1010:1072" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1473785420086" expanded="true" signature="1067:1129" ph="SELECT * FRO... app_instance_tokens" />
           </folding>
         </state>
       </provider>
