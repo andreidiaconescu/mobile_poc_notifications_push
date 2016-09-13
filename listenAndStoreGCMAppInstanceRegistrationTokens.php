@@ -30,7 +30,7 @@ if (!is_array($tokenData) || !isset($tokenData['token'])) {
     exit;
 }
 
-// grant all PRIVILEGES on mobile_poc_notifications.* to mobile_poc_notifications_user@localhost IDENTIFIED by 'mobile_poc_notifications_pass';
+// grant all PRIVILEGES on mobile_poc_notifications.* to notifs_user@localhost IDENTIFIED by 'notifs_pass';
 $db = new \Db( 'mysql', 'localhost', 'mobile_poc_notifications', 'notifs_user', 'notifs_pass');
 
 // check that token does not already exist
