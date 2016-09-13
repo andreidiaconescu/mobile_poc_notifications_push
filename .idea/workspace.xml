@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a5c2ba-33e8-4021-ac52-1886c647ebe8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php" afterPath="$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/README.md" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/composer.json" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/mkdocs.yml" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/mkdocs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/AbstractOptions.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/AbstractOptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayObject.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayObject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ArrayUtils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/ErrorHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Glob.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Glob.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/ArrayOrTraversableGuardTrait.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Guard/ArrayOrTraversableGuardTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/JsonSerializable.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/JsonSerializable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Message.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Parameters.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityList.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityQueue.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/PriorityQueue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplPriorityQueue.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/SplPriorityQueue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringUtils.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringUtils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/AbstractStringWrapper.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/AbstractStringWrapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Iconv.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Iconv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Intl.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Intl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/MbString.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/MbString.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Native.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/StringWrapper/Native.php" />
     </list>
     <ignored path="NotificationPusher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +37,25 @@
       <file leaf-file-name="listenAndStoreGCMAppInstanceRegistrationTokens.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="774">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
-                <marker date="1473783363958" expanded="true" signature="931:979" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1473784620218" expanded="true" signature="1046:1108" ph="SELECT * FRO... app_instance_tokens" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1473781172661" expanded="true" signature="11081:11199" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
+                <marker date="1473781172661" expanded="true" signature="11402:11454" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
+                <marker date="1473781172661" expanded="true" signature="12397:12447" ph="DELETE FROM " />
+                <marker date="1473781172661" expanded="true" signature="14037:14966" ph="SELECT `COLU... COLUMNS" />
               </folding>
             </state>
           </provider>
@@ -329,12 +313,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473770221547</updated>
-      <workItem from="1473770222952" duration="8703000" />
+      <workItem from="1473770222952" duration="9959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8703000" />
+    <option name="totallyTimeSpent" value="9959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -343,6 +327,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25317854" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="165" y="124" width="1655" height="884" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,12 +434,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1473781172661" expanded="true" signature="11081:11199" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
+            <marker date="1473781172661" expanded="true" signature="11402:11454" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
+            <marker date="1473781172661" expanded="true" signature="12397:12447" ph="DELETE FROM " />
+            <marker date="1473781172661" expanded="true" signature="14037:14966" ph="SELECT `COLU... COLUMNS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="774">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <marker date="1473783363958" expanded="true" signature="931:979" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1473784620218" expanded="true" signature="1046:1108" ph="SELECT * FRO... app_instance_tokens" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,6 @@
 <?php
+require_once './vendor/adriengibrat/SimpleDatabasePHPClass/Db.php';
+
 $tokenData = [];
 if (isset($_GET) && is_array($_GET)) {
     $tokenData = array_merge($tokenData, $_GET);
@@ -29,14 +31,26 @@ if (!is_array($tokenData) || !isset($tokenData['token'])) {
 }
 
 // grant all PRIVILEGES on mobile_poc_notifications.* to mobile_poc_notifications_user@localhost IDENTIFIED by 'mobile_poc_notifications_pass';
-$db = new Db( 'mysql', 'localhost', 'mobile_poc_notifications', 'notifs_user', 'notifs_pass');
-$dbReadResult = $db->query('SELECT * FROM app_instance_tokens WHERE id = :id', array( 'id' => 1 ) );
-?>
-<br>$dbReadResult:
-<pre>
-<?php
-    var_dump($dbReadResult);
-?>
-</pre>
+$db = new \Db( 'mysql', 'localhost', 'mobile_poc_notifications', 'notifs_user', 'notifs_pass');
 
+// check that token does not already exist
+$existingToken = $db->query('SELECT * FROM app_instance_tokens WHERE token = :token LIMIT 1', array( 'token' => $tokenData['token'] ) )->all();
+if (is_array($existingToken) && count($existingToken) > 0) {
+    echo '<br>Token already exists in DB table';
+    $existingToken = $existingToken[0]->token;
+} else {
+    $existingToken = null;
+}
 
+if (!$existingToken) {
+    // insert token
+    $db->create(
+        'app_instance_tokens',
+        array(
+            'token' => $tokenData['token'],
+            'crdate' => date('Y-m-d h:i:s'),
+            'tstamp' => date('Y-m-d h:i:s')
+        )
+    );
+    echo '<br>Token inserted';
+}
