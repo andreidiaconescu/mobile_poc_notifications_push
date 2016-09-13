@@ -1,24 +1,3 @@
-<br>$_GET:
-<pre>
-<?php
-    var_dump($_GET);
-?>
-</pre>
-
-<br>$_POST:
-<pre>
-<?php
-    var_dump($_POST);
-?>
-</pre>
-
-<br>$_REQUEST:
-<pre>
-<?php
-    var_dump($_REQUEST);
-?>
-</pre>
-
 <?php
 $tokenData = [];
 if (isset($_GET) && is_array($_GET)) {
@@ -42,4 +21,22 @@ if ($inputStreamParams && is_array($inputStreamParams)) {
     var_dump($tokenData);
 ?>
 </pre>
+
+<?php
+if (!is_array($tokenData) || !isset($tokenData['token'])) {
+    echo 'ERROR: token data could not be parsed';
+    exit;
+}
+
+// grant all PRIVILEGES on mobile_poc_notifications.* to mobile_poc_notifications_user@localhost IDENTIFIED by 'mobile_poc_notifications_pass';
+$db = new Db( 'mysql', 'localhost', 'mobile_poc_notifications', 'notifs_user', 'notifs_pass');
+$dbReadResult = $db->query('SELECT * FROM app_instance_tokens WHERE id = :id', array( 'id' => 1 ) );
+?>
+<br>$dbReadResult:
+<pre>
+<?php
+    var_dump($dbReadResult);
+?>
+</pre>
+
 

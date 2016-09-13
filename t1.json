@@ -1,19 +1,20 @@
 {
     "require": {
         "sly/notification-pusher": "^2.2",
-        "adriengibrat/SimpleDatabasePHPClass": "1.0"
+        "adriengibrat/SimpleDatabasePHPClass": "*"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
                 "name": "adriengibrat/SimpleDatabasePHPClass",
-                "version": "1.0",
+                "version": "master",
                 "autoload": {
                     "psr-0": {
                         "adriengibrat\\SimpleDatabasePHPClass": ""
                     }
                 },
+                "target-dir": "adriengibrat/SimpleDatabasePHPClass",
                 "source": {
                     "url": "https://github.com/adriengibrat/Simple-Database-PHP-Class.git",
                     "type": "git",
