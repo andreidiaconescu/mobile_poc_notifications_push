@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a5c2ba-33e8-4021-ac52-1886c647ebe8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php" afterPath="$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testPush.php" afterPath="$PROJECT_DIR$/pushNotifications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NotificationPusher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,38 +26,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testPush.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testPush.php">
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listenAndStoreGCMAppInstanceRegistrationTokens.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding>
-                <marker date="1473785534734" expanded="true" signature="1074:1136" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1473858589561" expanded="true" signature="11069:11187" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
+                <marker date="1473858589561" expanded="true" signature="11387:11439" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
+                <marker date="1473858589561" expanded="true" signature="12382:12432" ph="DELETE FROM " />
+                <marker date="1473858589561" expanded="true" signature="14022:14951" ph="SELECT `COLU... COLUMNS" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php">
+      <file leaf-file-name="pushNotifications.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pushNotifications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <marker date="1473781172661" expanded="true" signature="11081:11199" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
-                <marker date="1473781172661" expanded="true" signature="11402:11454" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
-                <marker date="1473781172661" expanded="true" signature="12397:12447" ph="DELETE FROM " />
-                <marker date="1473781172661" expanded="true" signature="14037:14966" ph="SELECT `COLU... COLUMNS" />
+                <marker date="1473859626181" expanded="true" signature="1157:1250" ph="SELECT * FRO... app_instance_tokens" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-612">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listenAndStoreGCMAppInstanceRegistrationTokens.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <marker date="1473785534734" expanded="true" signature="1074:1136" ph="SELECT * FRO... app_instance_tokens" />
               </folding>
             </state>
           </provider>
@@ -66,7 +86,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1473781151793" expanded="true" signature="0:722" ph="{...}" />
+                <marker date="1473781151793" expanded="true" signature="17:120" ph="{&quot;sly/notification-pusher&quot;: &quot;^2.2&quot;...}" />
+                <marker date="1473781151793" expanded="true" signature="208:704" ph="{&quot;name&quot;: &quot;adriengibrat/SimpleDatabasePHPClass&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,11 +135,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testPush.php" />
         <option value="$PROJECT_DIR$/listenAndStoreGCMRegistrationTokens.php" />
         <option value="$PROJECT_DIR$/t1.json" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php" />
+        <option value="$PROJECT_DIR$/testPush.php" />
+        <option value="$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php" />
+        <option value="$PROJECT_DIR$/pushNotifications.php" />
       </list>
     </option>
   </component>
@@ -124,6 +150,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -148,7 +177,15 @@
           <State>
             <id>JavaScript</id>
           </State>
+          <State>
+            <id>SQL</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -197,6 +234,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adriengibrat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleDatabasePHPClass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -206,6 +279,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ionic2_try_1/MyIonic2Project" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -252,6 +326,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="01a5c2ba-33e8-4021-ac52-1886c647ebe8" name="Default" comment="" />
@@ -259,12 +336,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473770221547</updated>
-      <workItem from="1473770222952" duration="10874000" />
+      <workItem from="1473770222952" duration="17652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10874000" />
+    <option name="totallyTimeSpent" value="17652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -289,6 +366,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -321,14 +406,6 @@
           <folding>
             <element signature="e#7#233#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testPush.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,29 +453,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1473781151793" expanded="true" signature="0:722" ph="{...}" />
+            <marker date="1473781151793" expanded="true" signature="17:120" ph="{&quot;sly/notification-pusher&quot;: &quot;^2.2&quot;...}" />
+            <marker date="1473781151793" expanded="true" signature="208:704" ph="{&quot;name&quot;: &quot;adriengibrat/SimpleDatabasePHPClass&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1473781172661" expanded="true" signature="11081:11199" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
-            <marker date="1473781172661" expanded="true" signature="11402:11454" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
-            <marker date="1473781172661" expanded="true" signature="12397:12447" ph="DELETE FROM " />
-            <marker date="1473781172661" expanded="true" signature="14037:14966" ph="SELECT `COLU... COLUMNS" />
+            <marker date="1473858589561" expanded="true" signature="11069:11187" ph="INSERT INTO ${$this-&gt;_table( $table )}... " />
+            <marker date="1473858589561" expanded="true" signature="11387:11439" ph="SELECT * FRO... ${$this-&gt;_table( $table )}" />
+            <marker date="1473858589561" expanded="true" signature="12382:12432" ph="DELETE FROM " />
+            <marker date="1473858589561" expanded="true" signature="14022:14951" ph="SELECT `COLU... COLUMNS" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-612">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/listenAndStoreGCMAppInstanceRegistrationTokens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="434">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <marker date="1473785534734" expanded="true" signature="1074:1136" ph="SELECT * FRO... app_instance_tokens" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushNotifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1473859626181" expanded="true" signature="1157:1250" ph="SELECT * FRO... app_instance_tokens" />
           </folding>
         </state>
       </provider>

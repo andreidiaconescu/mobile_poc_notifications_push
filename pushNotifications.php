@@ -1,6 +1,10 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 
 require_once './vendor/autoload.php';
+
+require_once __DIR__.'/vendor/adriengibrat/SimpleDatabasePHPClass/Db.php';
 
 use Sly\NotificationPusher\PushManager,
     Sly\NotificationPusher\Adapter\Gcm as GcmAdapter,
@@ -23,11 +27,33 @@ $gcmAdapter = new GcmAdapter(array(
     'apiKey' => 'AIzaSyAK8xELdfPiXWLyL0LYGSua9aVrgYVPRXM',
 ));
 
+
+// grant all PRIVILEGES on mobile_poc_notifications.* to notifs_user@localhost IDENTIFIED by 'notifs_pass';
+$db = new \Db( 'mysql', 'localhost', 'mobile_poc_notifications', 'notifs_user', 'notifs_pass');
+
+// get the device(s) instance ids tokens to push the notification to.
+$tokens = $db->query(
+        '
+          SELECT * 
+          FROM app_instance_tokens 
+          ORDER BY id DESC
+          LIMIT 1000
+        ',
+        array()
+    )
+    ->all();
+$devicesTokensArr = [];
+foreach ($tokens as $token) {
+    $devicesTokensArr[] = new Device($token->token);
+}
+
+
 // Set the device(s) to push the notification to.
 $devices = new DeviceCollection(
-    array(
-        new Device('edGtl6RwIDc:APA91bG0nZGuv6wB0D_5mXB9JEyGvQCZtW4zG5sZIBzvyHsNRxMYRyUYu7txLexVzkb_0quLlvwX5_itGofjPgh-VDh03fHhz1MGcXDZxt0KxS3ueuJu6LpwuE59yHTGuI_Nc7o1rZWK')
-    )
+//    array(
+//        new Device('dfu7LL9Py2Y:APA91bFdtG5rrCPqg8ytPF2jMMgm4CXFcJH_XbtHVkv8MEYRSyoQxJcxLngvwfs8Q-h1IZRFYDkuq8B6pgUpoKTl07VRj9UjGHCmLnm1Lj2UdB1UmF4c-e-ilitoDt5cJi3DpbvSiC4Y')
+//    )
+    $devicesTokensArr
 );
 
 // Then, create the push skel.
