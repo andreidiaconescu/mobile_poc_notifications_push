@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01a5c2ba-33e8-4021-ac52-1886c647ebe8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass" afterPath="$PROJECT_DIR$/vendor/adriengibrat/SimpleDatabasePHPClass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushNotifications.php" afterPath="$PROJECT_DIR$/pushNotifications.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Adapter/Gcm.php" afterPath="$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Adapter/Gcm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/PushManager.php" afterPath="$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/PushManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/zendframework/zend-http/src/Client.php" afterPath="$PROJECT_DIR$/vendor/zendframework/zend-http/src/Client.php" />
     </list>
     <ignored path="NotificationPusher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,14 +43,34 @@
       <file leaf-file-name="pushNotifications.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pushNotifications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="134" column="47" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+            <state relative-caret-position="131">
+              <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
               <folding>
-                <marker date="1474024960296" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
-                <marker date="1474024960296" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
-                <marker date="1474024960296" expanded="true" signature="2326:2511" ph="SELECT * FRO... app_instance_tokens" />
-                <marker date="1474024960296" expanded="true" signature="6370:6506" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1474027179164" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1474027179164" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1474027179164" expanded="true" signature="2318:2495" ph="SELECT * FRO... app_instance_tokens" />
+                <marker date="1474027179164" expanded="true" signature="6384:6520" ph="SELECT * FRO... app_instance_tokens" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PushCollection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/PushCollection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCollection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/AbstractCollection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/PushManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+              <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -82,8 +98,8 @@
       <file leaf-file-name="Gcm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Adapter/Gcm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="428">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-http/src/Client.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="979" column="0" selection-start-line="978" selection-start-column="0" selection-end-line="979" selection-end-column="0" />
+              <caret line="977" column="0" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -439,6 +455,82 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sly" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notification-pusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sly" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sly" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notification-pusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sly" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotificationPusher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Adapter" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -525,12 +617,12 @@
       <option name="presentableId" value="Default" />
       <updated>1473770221547</updated>
       <workItem from="1473770222952" duration="33701000" />
-      <workItem from="1474011080513" duration="9159000" />
+      <workItem from="1474011080513" duration="10991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42860000" />
+    <option name="totallyTimeSpent" value="44692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -590,10 +682,10 @@
         <state relative-caret-position="612">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <marker date="1474024960296" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="2326:2511" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="6370:6506" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="2318:2495" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="6384:6520" ph="SELECT * FRO... app_instance_tokens" />
           </folding>
         </state>
       </provider>
@@ -733,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/AbstractCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendservice-apple-apns/library/ZendService/Apple/Apns/Client/AbstractClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -752,22 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
           <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/PushCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Model/Push.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +892,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/PushManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -832,15 +900,15 @@
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-http/src/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="979" column="0" selection-start-line="978" selection-start-column="0" selection-end-line="979" selection-end-column="0" />
+          <caret line="977" column="0" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Adapter/Gcm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="428">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -861,15 +929,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Model/Push.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/PushCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/Collection/AbstractCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pushNotifications.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="134" column="47" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+        <state relative-caret-position="131">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
           <folding>
-            <marker date="1474024960296" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="2326:2511" ph="SELECT * FRO... app_instance_tokens" />
-            <marker date="1474024960296" expanded="true" signature="6370:6506" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="1847:1936" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="1847:2029" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="2318:2495" ph="SELECT * FRO... app_instance_tokens" />
+            <marker date="1474027179164" expanded="true" signature="6384:6520" ph="SELECT * FRO... app_instance_tokens" />
           </folding>
         </state>
       </provider>

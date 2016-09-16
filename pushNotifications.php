@@ -60,22 +60,24 @@ class AnaisPushNotifications
         );
         $this->sendNotifications($rsAndroidTokens, static::PLATFORM_ANDROID);
 
-//        // get the device(s) instance ids tokens to push the notification to. (for IOS)
-//        $rsAndroidTokens = $db->query(
-//            '
-//                  SELECT *
-//                  FROM app_instance_tokens
-//                  WHERE platform = "'.static::PLATFORM_IOS.'"
-//                  ORDER BY id DESC
-//                  LIMIT 1000
-//                ',
-//            array()
-//        );
-//        $this->sendNotifications($rsAndroidTokens, static::PLATFORM_IOS);
+        // get the device(s) instance ids tokens to push the notification to. (for IOS)
+        $rsAndroidTokens = $db->query(
+            '
+                  SELECT *
+                  FROM app_instance_tokens
+                  WHERE platform = "'.static::PLATFORM_IOS.'"
+                  ORDER BY id DESC
+                  LIMIT 1000
+                ',
+            array()
+        );
+        $this->sendNotifications($rsAndroidTokens, static::PLATFORM_IOS);
     }
 
     protected function sendNotifications($rsTokens, $platform)
     {
+        $this->pushManager->clear();
+
         $tokens = $rsTokens->all();
         $devicesTokensArr = [];
         foreach ($tokens as $token) {
