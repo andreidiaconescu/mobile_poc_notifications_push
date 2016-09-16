@@ -33,6 +33,10 @@ class Message extends AbstractClient
         'tls://gateway.sandbox.push.apple.com:2195',
         'tls://gateway.push.apple.com:2195',
     );
+//    protected $uris = array(
+//        'tls://api.development.push.apple.com:443',
+//        'tls://api.push.apple.com:443',
+//    );
 
     /**
      * Send Message

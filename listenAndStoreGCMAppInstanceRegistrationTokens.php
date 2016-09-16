@@ -51,6 +51,7 @@ if (!$existingToken) {
         'app_instance_tokens',
         array(
             'token' => $tokenData['token'],
+            'platform' => $tokenData['platform'],
             'crdate' => date('Y-m-d h:i:s'),
             'tstamp' => date('Y-m-d h:i:s')
         )

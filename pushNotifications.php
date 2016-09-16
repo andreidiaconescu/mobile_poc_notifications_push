@@ -46,7 +46,7 @@ $devicesTokensArr = [];
 foreach ($tokens as $token) {
     $devicesTokensArr[] = new Device($token->token);
 }
-
+$devicesTokensArr = [new Device('dWpna0_yWI8:APA91bHaT-OTAcwzzP_adejEwWPdjE7gt7W9WByPZNvun9qvt52KT_9rxCvmtIQ5XLVBNBu-tb4ziIO444qwcE2wLNV2HqtCz9cQ-t_PdJi2pU3seZdO3p61NGFfww0th1_fJAtU2TVY')];
 
 // Set the device(s) to push the notification to.
 $devices = new DeviceCollection(
